@@ -28,8 +28,8 @@ class Square extends Rectangle {
 	}
 getPerimeter()
 {
-this.perim=4*this.side;
-	return(this.perim);
+const perim=4*this.side;
+	return(perim);
 }
 }
 
