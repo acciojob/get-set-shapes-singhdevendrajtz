@@ -21,16 +21,17 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-	constructor(side);
+	constructor(side)
 	{
 	super(side,side);
 	}
 getPerimeter()
 {
 
-	return(this.width*4);
+	return(this.width * 4);
 }
 }
+
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
